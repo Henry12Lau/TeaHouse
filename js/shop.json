@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Basao Tea",
+    "website": "",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "17 Moon Street, Wan Chai Hong Kong"
+  },
+  {
+    "id": 2,
+    "name": "181 at Fortnum & Mason",
+    "website": "https://www.181fortnums.com.hk/",
+    "time": "Mon to Sun 11am-11.30pm",
+    "location": "Shop 002 & 122, G/F, K11 Musea, Victoria"
+  },
+  {
+    "id": 3,
+    "name": "Green Ginkgo Tea",
+    "website": "https://www.greenginkgotea.com/",
+    "time": "Mon to Sun 11am-8pm",
+    "location": "Shop 110, Pacific Place, Admiraltyi Hong Kong"
+  },
+  {
+    "id": 4,
+    "name": "LockCha Tea House",
+    "website": "",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "Shop 01-G06, G/F, Headquarters Block, Tai Kwun 10 Hollywood Road, Central"
+  }
+  ,
+  {
+    "id": 5,
+    "name": "MingCha Tea House",
+    "website": "http://www.mingcha.com/",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "Unit B2, 15/F, Block B, Fortune Factory Building 40 Lee Chung Street, Chai Wan"
+  },
+  {
+    "id": 6,
+    "name": "Plantation Tea Bar",
+    "website": "",
+    "time": "Mon-Sun 10am-9pm",
+    "location": "18 Po Tuck Street Sai Ying Pun"
+  },
+  {
+    "id": 7,
+    "name": "Tealosophy Tea Bar",
+    "website": "https://www.instagram.com/tealosophyhk/?hl=en",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "G/F, 38 Wyndham Street, Central"
+  },
+  {
+    "id": 8,
+    "name": "MingCha Tea House",
+    "website": "https://www.mingcha.com/",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "Unit B2, 15/F, Block B, Fortune Factory Building 40 Lee Chung Street, Chai Wan"
+  },
+  {
+    "id": 9,
+    "name": "Paper & Tea",
+    "website": "https://www.peerietea.com/",
+    "time": "Mon-Sun 10am-7pm",
+    "location": "Room C2, 6/F, Wu Fong Street, San Po Kong No. 31-33, Wing Hin Factory Building"
+  },
+  {
+    "id": 10,
+    "name": "Tea WG",
+    "website": "https://teawg.com/",
+    "time": "Mon-Sun 10am-10pm",
+    "location": "IFC, 1 Harbour View Street, Central"
+  }
+]

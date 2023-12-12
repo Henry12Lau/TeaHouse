@@ -1,0 +1,33 @@
+Age Range Distribution:
+18-24: 20%
+25-34: 30%
+35-44: 25%
+45-54: 15%
+55+: 10%
+Tea Preferences:
+Green Tea: 35%
+Black Tea: 25%
+Herbal Tea: 20%
+Oolong Tea: 15%
+White Tea: 5%
+Popular Products:
+Jasmine Green Tea: 18%
+Earl Grey Black Tea: 15%
+Chamomile Herbal Tea: 12%
+Tie Guan Yin Oolong Tea: 10%
+Silver Needle White Tea: 5%
+Purchase Trends:
+Monthly growth: 8%
+Yearly growth: 20%
+Customer Satisfaction:
+Overall Satisfaction: 4.5 out of 5
+Positive Reviews: 85%
+Negative Reviews: 5%
+Sales Revenue:
+Projected Monthly Revenue: $25,000
+Projected Yearly Revenue: $300,000
+Promotional Campaigns:
+Expected Engagement Rate: 15%
+Conversion Rate: 10%
+Geographic Insights:
+Top Locations: Hong Kong (45%), US (20%), Canada (10%), UK (8%), Australia (7%)

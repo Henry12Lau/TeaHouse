@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="navbar-nav ms-auto">
                         <a href="../index.html" id="home" class="nav-item nav-link">Home</a>
                         <a href="./about.html" id="about" class="nav-item nav-link">About Us</a>
+                        <a href="./tea.html" id="tea" class="nav-item nav-link">What is Tea?</a>
                         <a href="./news.html" id="news" class="nav-item nav-link">News</a>
                         <a href="./explore.html" id="explore" class="nav-item nav-link">Explore</a>
                         <a href="./analysis.html" id="analysis" class="nav-item nav-link">Analysis</a>
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function navHover() {
-    const page = ["about", "news", "explore", "contact"];
+    const page = ["about", "tea", "news", "explore", "contact"];
     for (let i = 0; i < page.length; i++) {
         let element = document.getElementById(page[i]);
         element.classList.remove("active");

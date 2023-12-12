@@ -2,12 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
 
-    newsDetails(id);
+    getShop(id);
 });
 
-async function newsDetails(id) {
+async function getShop(id) {
     try {
-        // const response = await fetch('./newsDetails.json');
         const response = await fetch('../js/newsDetails.json');
         const details = await response.json();
 
