@@ -10,7 +10,6 @@
 
     <!-- Favicon -->
     <link href="../img/logo.png" rel="icon">
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +41,32 @@
     <script src="../js/newsDetails.js"></script>
     <script src="../js/analysis.js"></script>
     <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
-    
+    <style>
+        .card {
+            border: 0rem;
+            border-radius: 0rem;
+            margin: 5px;
+        }
+
+        .card-header {
+            font-family: "Open Sans", sans-serif !important;
+            background-color: #37474F;
+            border-radius: 0 !important;
+            color: white;
+            margin-bottom: 0;
+            padding: 1rem;
+        }
+
+        .card-block {
+            border: 1px solid #cccccc;
+        }
+
+        .shadow {
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                0 3px 5px -1px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
@@ -72,12 +96,40 @@
     <div class="container-fluid">
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-6"><div id="ageChart" style="height: 300px; width: 100%;"></div></div>
-                <div class="col-md-6"><div id="teaChart" style="height: 300px; width: 100%;"></div></div> 
+                <div class="col-md-6">
+                    <div class="card shadow">
+                        <h4 class="card-header">Age Range</h4>
+                        <div class="card-block">
+                            <div id="ageChart" style="height: 300px; width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow">
+                        <h4 class="card-header">Tea Preferences</h4>
+                        <div class="card-block">
+                            <div id="teaChart" style="height: 300px; width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-6"><div id="teaOutput" style="height: 300px; width: 100%;"></div></div>
-                <div class="col-md-6"><div id="chartContainer" style="height: 300px; width: 100%;"></div></div>
+                <div class="col-md-6">
+                    <div class="card shadow">
+                        <h4 class="card-header">Tea GDP of Countries: 2023</h4>
+                        <div class="card-block">
+                            <div id="outputChart" style="height: 300px; width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow">
+                        <h4 class="card-header">Tea Sales of Global by Year</h4>
+                        <div class="card-block">
+                            <div id="salesChart" style="height: 300px; width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
