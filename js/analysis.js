@@ -3,49 +3,9 @@ window.onload = function () {
   teaYear();
   teaChart();
   teaOutput();
-  document.querySelector('#ageChart > div > a').innerHTML = ''
-  document.querySelector('#teaChart > div > a').innerHTML = ''
-  document.querySelector('#outputChart > div > a').innerHTML = ''
-  document.querySelector('#salesChart > div > a').innerHTML = ''
 }
 
 function ageRange() {
-  // let ageChart = new CanvasJS.Chart("ageChart", {
-  //   animationEnabled: true,
-  //   title: {
-  //     text: "",
-  //     horizontalAlign: "left"
-  //   },
-  //   data: [{
-  //     type: "doughnut",
-  //     startAngle: 60,
-  //     //innerRadius: 60,
-  //     indexLabelFontSize: 17,
-  //     indexLabel: "{label} - #percent%",
-  //     toolTipContent: "<b>{label}:</b> {y} (#percent%)",
-  //     dataPoints: [{
-  //         y: 20,
-  //         label: "18-24"
-  //       },
-  //       {
-  //         y: 30,
-  //         label: "25-34"
-  //       },
-  //       {
-  //         y: 25,
-  //         label: "35-44"
-  //       },
-  //       {
-  //         y: 15,
-  //         label: "45-54"
-  //       },
-  //       {
-  //         y: 10,
-  //         label: "55＋"
-  //       },
-  //     ]
-  //   }]
-  // });
   let ageChart = new CanvasJS.Chart("ageChart", {
     animationEnabled: true,
     theme: "theme2",
@@ -54,7 +14,7 @@ function ageRange() {
     },
     toolTip: {
       borderThickness: 0,
-      content: "<span style='\"'color: {color};'\"'>{name}</span> (#percent%)",
+      content: "<span style='\"'color: {color};'\"'>{y}</span> (#percent%)",
       cornerRadius: 0
     },
     data: [
@@ -76,7 +36,7 @@ function ageRange() {
       }
     ]
   });
-  
+
   ageChart.render();
 }
 
@@ -148,6 +108,7 @@ function teaYear() {
     }]
   });
   chart.render();
+  document.querySelector('#salesChart > div > a').innerHTML = ''
 }
 
 function teaChart() {
@@ -188,6 +149,7 @@ function teaChart() {
     }]
   });
   teaChart.render();
+  document.querySelector('#teaChart > div > a').innerHTML = ''
 }
 
 function teaOutput() {
@@ -253,4 +215,5 @@ function teaOutput() {
     }]
   });
   chart.render();
+  document.querySelector('#outputChart > div > a').innerHTML = ''
 }

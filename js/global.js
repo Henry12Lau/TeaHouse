@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                             <div class="dropdown-menu bg-light rounded-0 m-0">
-                                <a href="./coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="./survey.html" class="dropdown-item">Survey</a>
                             </div>
                         </div>
                         <a href="./contact.html" id="contact" class="nav-item nav-link">Contact</a>
